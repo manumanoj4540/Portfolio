@@ -1,0 +1,12 @@
+.hero{ 
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("img/hero.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-attachment: fixed;
+    color: aliceblue
+}
+
+.navbar-dark{
+    background-color: rgba(0, 0, 0, 0.3)
+}
