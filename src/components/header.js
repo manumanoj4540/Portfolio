@@ -4,6 +4,7 @@ import { NavLink } from 'react-router-dom';
 import logo from '../img/logo.png'
 import dp from '../img/dp.jpg'
 import { Spring } from 'react-spring/renderprops'
+import '../App.css'
 
 class Head extends Component {
  constructor (props) {
@@ -26,13 +27,13 @@ class Head extends Component {
                                         <NavLink className="nav-link"  to='/home'><span className="fa fa-home fa-sm"></span> Home</NavLink>
                                     </NavItem>
                                     <NavItem>
-                                        <NavLink className="nav-link" to='/aboutus'> About Us</NavLink>
+                                        <NavLink className="nav-link" to='/aboutus'> About Me</NavLink>
                                     </NavItem>
                                     <NavItem>
-                                        <NavLink className="nav-link"  to='/menu'> Menu</NavLink>
+                                        <NavLink className="nav-link"  to='/menu'> Projects</NavLink>
                                     </NavItem>
                                     <NavItem>
-                                        <NavLink className="nav-link" to='/contactus'> Contact Us</NavLink>
+                                        <NavLink className="nav-link" to='/contactus'> Contact Me</NavLink>
                                     </NavItem>
                                 </Nav>
                             </Collapse>
@@ -49,14 +50,15 @@ class Head extends Component {
                                 props =>(
                                 <div style={props}>
                                     <div className="row"> 
-                                        <img src={dp} alt="Manu Manoj" width="175" height="160" className="col-12 col-md-4 test"/>                                                      
+                                        <img src={dp} alt="Manu Manoj" width="60%" height="60%" className="col-12 col-md-4 test"/>                                                      
                                         <div className="col-12 col-md intro">
-                                            <h3>A Quick Intro</h3>
+                                            <h3 className="">A Quick Intro</h3>
                                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                                             Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                                             Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
                                             Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                                             </p>
+                                           <button className="btn offset-md-6"><p>Lets Go</p></button>
                                         </div>             
                                     </div>
                                 </div>
