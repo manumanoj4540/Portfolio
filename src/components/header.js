@@ -9,18 +9,27 @@ import '../App.css'
 class Head extends Component {
  constructor (props) {
      super (props) ;
+     this.toggleNav = this.toggleNav.bind(this);
      this.state = {
-
+        isNavOpen: false
      };
  }
+
+ toggleNav() {
+    this.setState({ isNavOpen: !this.state.isNavOpen });
+  }
+
  render(){
      return(
         <>
-           
             <div className="hero">
                 <Navbar dark expand="md">
                     <div className='container'>
-                    <NavbarBrand className="mr-auto" href="/"><img src={logo} height="50" width="150" alt='Ristorante Con Fusion' /></NavbarBrand>
+                    <div className="row">
+                        <NavbarToggler onClick={this.toggleNav}  className="col-3"/>
+                        <NavbarBrand className="mr-auto col" href="/"><img src={logo} height="50" width="150" alt='Ristorante Con Fusion' /></NavbarBrand>
+                    </div>
+                    
                     <Collapse isOpen={this.state.isNavOpen} navbar>
                                 <Nav navbar className=" ml-auto">
                                     <NavItem>
@@ -36,7 +45,8 @@ class Head extends Component {
                                         <NavLink className="nav-link" to='/contactus'> Contact Me</NavLink>
                                     </NavItem>
                                 </Nav>
-                            </Collapse>
+                    </Collapse>
+                    
                     </div>
                 </Navbar>
                 <div className= "container">
