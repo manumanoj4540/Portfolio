@@ -1,6 +1,7 @@
 import React , { Component } from 'react'
 import {Nav, Navbar, NavbarBrand, NavbarToggler, Collapse, NavItem, Jumbotron, Modal, Button, ModalHeader, ModalBody, Form, FormGroup, Input, Label, Card,CardBody, CardHeader } from 'reactstrap';
 import { NavLink } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import Header from './header'
 import dp from '../img/dp.jpg'
 import { Spring } from 'react-spring/renderprops'
@@ -28,7 +29,7 @@ class Home extends Component {
                              Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
                              Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                              </p>
-                            <button className="btn offset-md-6"><p>Lets Go</p></button>
+                            <Link to='/about'><button className="btn offset-md-6"><p>Lets Go</p></button></Link>
                          </div>             
                      
                  </div>

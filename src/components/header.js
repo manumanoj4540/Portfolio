@@ -33,13 +33,13 @@ export class Header extends Component {
                                             <NavLink className="nav-link"  to='/home'><span className="fa fa-home fa-sm"></span> Home</NavLink>
                                         </NavItem>
                                         <NavItem>
-                                            <NavLink className="nav-link" to='/aboutus'> About Me</NavLink>
+                                            <NavLink className="nav-link" to='/about'> About Me</NavLink>
                                         </NavItem>
                                         <NavItem>
-                                            <NavLink className="nav-link"  to='/menu'> Projects</NavLink>
+                                            <NavLink className="nav-link"  to='/project'> Projects</NavLink>
                                         </NavItem>
                                         <NavItem>
-                                            <NavLink className="nav-link" to='/contactus'> Contact Me</NavLink>
+                                            <NavLink className="nav-link" to='/contact'> Contact Me</NavLink>
                                         </NavItem>
                                     </Nav>
                         </Collapse>

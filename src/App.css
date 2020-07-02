@@ -13,11 +13,10 @@
     color: aliceblue;
     text-rendering: optimizeLegibility;
     overflow-x: hidden;
-    z-index: 0;
 }
 
-.hero{ 
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("img/hero.jpg");
+.contact{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/contact.jpg");
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -25,7 +24,28 @@
     color: aliceblue;
     text-rendering: optimizeLegibility;
     overflow-x: hidden;
-    z-index: 0;
+}
+
+.about{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("img/abt.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-attachment: fixed;
+    color: aliceblue;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+}
+
+.project{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("img/proj.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-attachment: fixed;
+    color: aliceblue;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
 }
 
 .navbar-dark{
@@ -57,6 +77,4 @@
     background-color: white;
 }
 
-.texts{
-    z-index: 1;
-}
+
