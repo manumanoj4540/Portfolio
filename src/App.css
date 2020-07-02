@@ -4,6 +4,18 @@
     box-sizing: border-box;
 }
 
+.home{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("img/hero.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-attachment: fixed;
+    color: aliceblue;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+    z-index: 0;
+}
+
 .hero{ 
     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("img/hero.jpg");
     background-size: cover;
@@ -13,6 +25,7 @@
     color: aliceblue;
     text-rendering: optimizeLegibility;
     overflow-x: hidden;
+    z-index: 0;
 }
 
 .navbar-dark{
@@ -44,3 +57,6 @@
     background-color: white;
 }
 
+.texts{
+    z-index: 1;
+}
