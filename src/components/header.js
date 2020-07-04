@@ -3,7 +3,6 @@ import {Nav, Navbar, NavbarBrand, NavbarToggler, Collapse, NavItem, Jumbotron, M
 import { NavLink } from 'react-router-dom';
 import logo from '../img/logo.png'
 
-
 export class Header extends Component {
     constructor (props) {
         super (props) ;
@@ -16,15 +15,16 @@ export class Header extends Component {
     toggleNav() {
        this.setState({ isNavOpen: !this.state.isNavOpen });
      }
+
     
     render() {
         return (
-            <div>
+            <div className="navi">
                 <Navbar dark expand="md">
                     <div className='container'>
                         <div className="row">
-                            <NavbarToggler onClick={this.toggleNav}  className="col-3"/>
-                            <NavbarBrand className="mr-auto col" href="/home"><img src={logo} height="50" width="150" alt='Ristorante Con Fusion' /></NavbarBrand>
+                        <NavbarToggler onClick={this.toggleNav}  className="col-3"/>
+                        <NavbarBrand className="mr-auto col" href="/home"><img src={logo} height="50" width="150" alt='Manu Manoj' /></NavbarBrand>
                         </div>
                         
                         <Collapse isOpen={this.state.isNavOpen} navbar>
@@ -33,7 +33,7 @@ export class Header extends Component {
                                             <NavLink className="nav-link"  to='/home'><span className="fa fa-home fa-sm"></span> Home</NavLink>
                                         </NavItem>
                                         <NavItem>
-                                            <NavLink className="nav-link" to='/about'> About Me</NavLink>
+                                            <a className="nav-link" href="#About"> About Me</a>
                                         </NavItem>
                                         <NavItem>
                                             <NavLink className="nav-link"  to='/project'> Projects</NavLink>

@@ -3,8 +3,9 @@ import Header from './header'
 
 function About() {
     return (
-        <div className="about">
-            <Header />
+        <div id="About" className="about container">
+            <div className="col-12 col-md-6 mt-5"><h2>About Me</h2></div>
+           
         </div>
     )
 }
