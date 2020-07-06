@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import {Nav, Navbar, NavbarBrand, NavbarToggler, Collapse, NavItem, Jumbotron, Modal, Button, ModalHeader, ModalBody, Form, FormGroup, Input, Label, Card,CardBody, CardHeader } from 'reactstrap';
+import {Nav, Navbar, NavbarBrand, NavbarToggler, Collapse, NavItem} from 'reactstrap';
 import { NavLink } from 'react-router-dom';
 import logo from '../img/logo.png'
 
@@ -8,13 +8,13 @@ export class Header extends Component {
         super (props) ;
         this.toggleNav = this.toggleNav.bind(this);
         this.state = {
-           isNavOpen: false
+        isNavOpen: false
         };
     }
-   
+
     toggleNav() {
-       this.setState({ isNavOpen: !this.state.isNavOpen });
-     }
+    this.setState({ isNavOpen: !this.state.isNavOpen });
+    }
 
     
     render() {

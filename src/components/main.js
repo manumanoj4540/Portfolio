@@ -1,7 +1,7 @@
 import React from 'react';
 import Home from './home';
 import Contact from './contact';
-import About from './about';
+
 import Project from './project';
 import { Switch, Route, Redirect } from 'react-router-dom';
 import '../App.css'
@@ -17,7 +17,7 @@ const Main = (props) => {
            <Route path='/project' component={()=> <Project /> } />
            <Redirect to="/home" />
        </Switch>   
-       <About />   
+  
     </div>
         )
     
