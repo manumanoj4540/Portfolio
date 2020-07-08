@@ -7,7 +7,6 @@ import { Spring } from 'react-spring/renderprops'
 import '../App.css'
 
 function Home () {
-
     function description() {
         return(
             <Spring 
@@ -17,15 +16,15 @@ function Home () {
                 {
                     props =>(
                         <div style={props}>                                                    
-                        <div>
-                            <h3 className="col-12">A Quick Intro</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-                            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                            </p>
-                            <Link to='/about'><button className="btn offset-md-6"><p>Contact Me</p></button></Link>
-                        </div>                                  
+                            <div>
+                                <h3 className="col-12">A Quick Intro</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+                                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                </p>
+                                <Link to='/about'><button className="btn offset-md-6"><p>Contact Me</p></button></Link>
+                            </div>                                  
                         </div>
                     )
                 }
