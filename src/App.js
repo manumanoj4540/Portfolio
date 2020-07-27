@@ -105,6 +105,7 @@ function App() {
             <h1>Project 1</h1>
             <h2>Coding is Love</h2>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad, iusto cupiditate voluptatum impedit unde rem ipsa distinctio illum quae mollitia ut, accusantium eius odio ducimus illo neque atque libero non sunt harum? Ipsum repellat animi, fugit architecto voluptatum odit et!</p>
+            <a href="#about" type="button" className="cta">Demo</a>
           </div>
           <div className="project-img">
             <img src={net} alt="img" />
@@ -115,6 +116,7 @@ function App() {
             <h1>Project 2</h1>
             <h2>Coding is Love</h2>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad, iusto cupiditate voluptatum impedit unde rem ipsa distinctio illum quae mollitia ut, accusantium eius odio ducimus illo neque atque libero non sunt harum? Ipsum repellat animi, fugit architecto voluptatum odit et!</p>
+            <a href="#about" type="button" className="cta">Demo</a>
           </div>
           <div className="project-img">
             <img src={net} alt="img" />
@@ -125,6 +127,7 @@ function App() {
             <h1>Project 3</h1>
             <h2>Coding is Love</h2>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad, iusto cupiditate voluptatum impedit unde rem ipsa distinctio illum quae mollitia ut, accusantium eius odio ducimus illo neque atque libero non sunt harum? Ipsum repellat animi, fugit architecto voluptatum odit et!</p>
+            <a href="#about" type="button" className="cta">Demo</a>
           </div>
           <div className="project-img">
             <img src={net} alt="img" />
@@ -139,6 +142,7 @@ function App() {
             pulling in information from a third party API call TMDb and deployed it
             on Firebase.
             </p>
+            <a href="https://netflix-clone-2d41d.web.app/" type="button" className="cta" target="_blank">Demo</a>
           </div>
           <div className="project-img">
             <img src={net} alt="img" />
@@ -151,6 +155,7 @@ function App() {
             <p>Created and hosted website for a Cleaning Service establishment 
               ‘ Military Standard Cleaning ’ in association with Mavenetic using WordPress and tools like Elementor
                 and Ninjaforms.</p>
+                <a href="https://twomclean.com" type="button" className="cta" target="_blank">Visit</a>
           </div>
           <div className="project-img">
             <img src={img1} alt="img" />
