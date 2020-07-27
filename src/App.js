@@ -151,7 +151,7 @@ function App() {
         <div className="project-item">
           <div className="project-info">
             <h1>Military Standard Cleaning </h1>
-            <h2>Mavenetic</h2>
+            <h2>Mavenetic (WordPress)</h2>
             <p>Created and hosted website for a Cleaning Service establishment 
               ‘ Military Standard Cleaning ’ in association with Mavenetic using WordPress and tools like Elementor
                 and Ninjaforms.</p>
@@ -175,12 +175,12 @@ function App() {
         <div className="col-right">
           <h1 className="section-title">About <span>me</span></h1>
           <h2>Associate Full Stack Web Developer</h2>
-          <p>Hi there! I'm Manu Manoj a goal oriented individual and a multitasking programmer skilled in
-            JavaScript along with respective frontend and backend JS frameworks as
-            well as Content Management Systems such as Wordpress. Quick learner
+          <p>Hi there! I'm Manu Manoj, a goal oriented individual and a multitasking programmer skilled in
+            JavaScript along with the respective front-end and back-end JS frameworks as
+            well as Content Management Systems such as Wordpress. I'm a quick learner
             with a will and desire to undergo self improvement for the growth of
             peers and the employer. Want to know more? Download my resume attatched below or head on down to the Contact section to know more. Cheers!! :)</p>
-          <a href="#" className="cta">Download Resume</a>
+          <a href="#" className="btn">Download Resume</a>
         </div>
       </div>
     </section>
@@ -211,13 +211,13 @@ function App() {
             </div>
           </div>
         </div>
+        <a href="#footer" className="btn">Follow Me</a>
       </div>
     </section>
 
     <section id="footer">
       <div className="footer container">
         <div className="brand"><h1><span>M</span>anu <span>M</span>anoj</h1></div>
-        <h2>Your Complete Web Solution</h2>
         <div className="social-icon">
           <div className="social-item">
             <a href="https://www.facebook.com/manu.manoj.90475/" target="_blank"><img src="https://img.icons8.com/bubbles/100/000000/facebook-new.png"/></a>
