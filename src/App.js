@@ -2,6 +2,8 @@ import React, {useEffect} from 'react';
 import './App.css';
 import img1 from './img/twom.png';
 import me from './img/img-2.jpg';
+import node from './img/node.png';
+import net from './img/net.png';
 
 function App() {
   useEffect(() => {
@@ -69,24 +71,24 @@ function App() {
             <div className="skill-item">
               <div className="icon"><img src="https://img.icons8.com/color/128/000000/react-native.png"/></div>
               <h2>Front End Technologies</h2>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis debitis rerum, magni voluptatem sed architecto placeat beatae tenetur officia quod</p>
+              <p>Good working knowledge of the JavaScript based front-end library ReactJS along with various other technologies such as Axios, Context API, SpringJS and Redux along with operational knowledge on both HTTP and REST API servers.</p>
             </div>
             <div className="skill-item">
               <div className="icon">
-              <img src="https://img.icons8.com/windows/128/000000/nodejs.png"/>
+              <img src={node}/>
               </div>
               <h2>Back End Technologies</h2>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis debitis rerum, magni voluptatem sed architecto placeat beatae tenetur officia quod</p>
+              <p>Good working knowledge on the JavaScript based back-end framework NodeJS along with different other technologies such as ExpressJS , MongoDB, Mongoose and Firebase. Passport, JWT and Google OAuth based authentications.</p>
             </div>
             <div className="skill-item">
               <div className="icon"><img src="https://img.icons8.com/color/128/000000/bootstrap.png"/></div>
               <h2>UI Design Frameworks</h2>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis debitis rerum, magni voluptatem sed architecto placeat beatae tenetur officia quod</p>
+              <p>Good working knowledge on the CSS framework Bootstrap as well as other UI libraries such as ReactStrap, CSS Grid, Flexbox and MaterialUI. Experienced in creating and maintaining clean and responsive front-end structures and designs.</p>
             </div>
             <div className="skill-item">
               <div className="icon"><img src="https://img.icons8.com/color/128/000000/wordpress.png"/></div>
               <h2>Content Management Systems</h2>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis debitis rerum, magni voluptatem sed architecto placeat beatae tenetur officia quod</p>
+              <p>Good operational experience and knowledge in creating full fledged websites from scratch using CMS technologies such as Wix and Wordpress with tools such as Elementor, WooCommerce, Ninjaforms and Yoast to carry out Search Engine Optimizations.</p>
             </div>
           </div>
         </div>
@@ -105,7 +107,7 @@ function App() {
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad, iusto cupiditate voluptatum impedit unde rem ipsa distinctio illum quae mollitia ut, accusantium eius odio ducimus illo neque atque libero non sunt harum? Ipsum repellat animi, fugit architecto voluptatum odit et!</p>
           </div>
           <div className="project-img">
-            <img src={img1} alt="img" />
+            <img src={net} alt="img" />
           </div>
         </div>
         <div className="project-item">
@@ -115,7 +117,7 @@ function App() {
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad, iusto cupiditate voluptatum impedit unde rem ipsa distinctio illum quae mollitia ut, accusantium eius odio ducimus illo neque atque libero non sunt harum? Ipsum repellat animi, fugit architecto voluptatum odit et!</p>
           </div>
           <div className="project-img">
-            <img src={img1} alt="img" />
+            <img src={net} alt="img" />
           </div>
         </div>
         <div className="project-item">
@@ -125,25 +127,29 @@ function App() {
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad, iusto cupiditate voluptatum impedit unde rem ipsa distinctio illum quae mollitia ut, accusantium eius odio ducimus illo neque atque libero non sunt harum? Ipsum repellat animi, fugit architecto voluptatum odit et!</p>
           </div>
           <div className="project-img">
-            <img src={img1} alt="img" />
+            <img src={net} alt="img" />
           </div>
         </div>
         <div className="project-item">
           <div className="project-info">
-            <h1>Project 4</h1>
-            <h2>Coding is Love</h2>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad, iusto cupiditate voluptatum impedit unde rem ipsa distinctio illum quae mollitia ut, accusantium eius odio ducimus illo neque atque libero non sunt harum? Ipsum repellat animi, fugit architecto voluptatum odit et!</p>
+            <h1>Netflix Clone</h1>
+            <h2>ReactJS</h2>
+            <p>
+            Created a Netflix app clone with trailer playback using ReactJS by
+            pulling in information from a third party API call TMDb and deployed it
+            on Firebase.
+            </p>
           </div>
           <div className="project-img">
-            <img src={img1} alt="img" />
+            <img src={net} alt="img" />
           </div>
         </div>
         <div className="project-item">
           <div className="project-info">
-            <h1>Project 5</h1>
-            <h2>Military Standard Cleaning (Mavenetic)</h2>
+            <h1>Military Standard Cleaning </h1>
+            <h2>Mavenetic</h2>
             <p>Created and hosted website for a Cleaning Service establishment 
-              ‘ Military Standard Cleaning ’ in association with Mavenetic using WordPress with tools like Elementor
+              ‘ Military Standard Cleaning ’ in association with Mavenetic using WordPress and tools like Elementor
                 and Ninjaforms.</p>
           </div>
           <div className="project-img">
