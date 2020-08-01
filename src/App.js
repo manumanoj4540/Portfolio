@@ -17,7 +17,7 @@ function App() {
       const header = document.querySelector('.header.container');
       document.addEventListener('scroll', () => {
         var scroll_position = window.scrollY;
-        if (scroll_position > 750) {
+        if (scroll_position > 250) {
           header.style.backgroundColor = '#29323c';
         } else {
           header.style.backgroundColor = 'transparent';
@@ -179,7 +179,7 @@ function App() {
             JavaScript along with the respective front-end and back-end JS frameworks as
             well as Content Management Systems such as Wordpress. I'm a quick learner
             with a will and desire to undergo self improvement for the growth of
-            peers and the employer. Want to know more? Download my resume attatched below or head on down to the Contact section to know more. Cheers!! :)</p>
+            peers and the employer. Want to know more? Download my resume attached below or head on down to the Contact section to know more. Cheers!! :)</p>
           <a href="#" className="btn">Download Resume</a>
         </div>
       </div>
