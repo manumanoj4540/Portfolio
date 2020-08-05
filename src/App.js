@@ -4,6 +4,8 @@ import img1 from './img/twom.png';
 import me from './img/img-2.jpg';
 import node from './img/node.png';
 import net from './img/net.png';
+import nodeJ from './img/nodeJ.png';
+import res from './img/dig.pdf';
 
 function App() {
   useEffect(() => {
@@ -102,10 +104,11 @@ function App() {
       <div className="all-projects">
         <div className="project-item">
           <div className="project-info">
-            <h1>Project 1</h1>
-            <h2>Coding is Love</h2>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad, iusto cupiditate voluptatum impedit unde rem ipsa distinctio illum quae mollitia ut, accusantium eius odio ducimus illo neque atque libero non sunt harum? Ipsum repellat animi, fugit architecto voluptatum odit et!</p>
-            <a href="#about" type="button" className="cta">Demo</a>
+            <h1>Netflix Clone</h1>
+            <h2>ReactJS</h2>
+            <p>Created a Netflix app clone with trailer playback using ReactJS by
+            pulling in information from a third party API call TMDb and deployed it on Firebase.</p>
+            <a href="https://netflix-clone-2d41d.web.app/" type="button" className="cta" target="_blank">Demo</a>
           </div>
           <div className="project-img">
             <img src={net} alt="img" />
@@ -113,16 +116,16 @@ function App() {
         </div>
         <div className="project-item">
           <div className="project-info">
-            <h1>Project 2</h1>
-            <h2>Coding is Love</h2>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad, iusto cupiditate voluptatum impedit unde rem ipsa distinctio illum quae mollitia ut, accusantium eius odio ducimus illo neque atque libero non sunt harum? Ipsum repellat animi, fugit architecto voluptatum odit et!</p>
-            <a href="#about" type="button" className="cta">Demo</a>
+            <h1>Node Server With Passport</h1>
+            <h2>NodeJS</h2>
+            <p>Created a NodeJS server using ExpressJS along with Mongoose schemas and MongoDB. Additional Passport-local authentication has been incorporated along with Express Sessions</p>
+            <a href="https://github.com/manumanoj4540/Node-Passport-Login-Auth" type="button" className="cta" target="_blank">Visit Repo</a>
           </div>
           <div className="project-img">
-            <img src={net} alt="img" />
+            <img src={nodeJ} alt="img" />
           </div>
         </div>
-        <div className="project-item">
+        {/* <div className="project-item">
           <div className="project-info">
             <h1>Project 3</h1>
             <h2>Coding is Love</h2>
@@ -132,8 +135,8 @@ function App() {
           <div className="project-img">
             <img src={net} alt="img" />
           </div>
-        </div>
-        <div className="project-item">
+        </div> */}
+        {/* <div className="project-item">
           <div className="project-info">
             <h1>Netflix Clone</h1>
             <h2>ReactJS</h2>
@@ -147,7 +150,7 @@ function App() {
           <div className="project-img">
             <img src={net} alt="img" />
           </div>
-        </div>
+        </div> */}
         <div className="project-item">
           <div className="project-info">
             <h1>Military Standard Cleaning </h1>
@@ -180,7 +183,7 @@ function App() {
             well as Content Management Systems such as Wordpress. I'm a quick learner
             with a will and desire to undergo self improvement for the growth of
             peers and the employer. Want to know more? Download my resume attached below or head on down to the Contact section to know more. Cheers!! :)</p>
-          <a href="#" className="btn">Download Resume</a>
+          <a href={res} className="btn" target="_blank" >Download Resume</a>
         </div>
       </div>
     </section>
