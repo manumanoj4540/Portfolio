@@ -5,7 +5,7 @@ import me from './img/img-2.jpg';
 import node from './img/node.png';
 import net from './img/net.png';
 import nodeJ from './img/nodeJ.png';
-import res from './img/dig.pdf';
+import res from './img/res.pdf';
 
 function App() {
   useEffect(() => {
@@ -73,7 +73,7 @@ function App() {
             <div className="skill-item">
               <div className="icon"><img src="https://img.icons8.com/color/128/000000/react-native.png"/></div>
               <h2>Front End Technologies</h2>
-              <p>Good working knowledge of the JavaScript based front-end library ReactJS along with various other technologies such as Axios, Context API, SpringJS and Redux along with operational knowledge on both HTTP and REST API servers.</p>
+              <p>Good working knowledge of the JavaScript based front-end library ReactJS along with various other technologies such as Axios, Context API, SpringJS, React hooks and Redux along with operational knowledge on both HTTP and REST API servers.</p>
             </div>
             <div className="skill-item">
               <div className="icon">
